@@ -1,10 +1,10 @@
 ﻿MedicationRecord : Validation Results
 =========================================
 
-err = 137, warn = 172, info = 91
+err = 120, warn = 156, info = 91
 IG Publisher Version: 1.1.97
-Generated Fri Jan 28 15:30:33 UTC 2022. FHIR version 4.0.1 for hl7.fhir.be.riziv-medicationrecord#0.1.0-test (canonical = http://hl7belgium.org/fhir/riziv-medicationrecord)
- Build Errors : 850 / 21 / 0
+Generated Fri Jan 28 15:32:12 UTC 2022. FHIR version 4.0.1 for hl7.fhir.be.riziv-medicationrecord#0.1.0-test (canonical = http://hl7belgium.org/fhir/riziv-medicationrecord)
+ Build Errors : 794 / 13 / 0
  /github/workspace/fsh-generated/resources/Bundle-EB : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CarePlan-1-treatment : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CarePlan-13-treatment : 0 / 0 / 1
@@ -55,7 +55,6 @@ Generated Fri Jan 28 15:30:33 UTC 2022. FHIR version 4.0.1 for hl7.fhir.be.riziv
  /github/workspace/fsh-generated/resources/MedicationDispense-6-dispense : 1 / 2 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-7-dispense : 1 / 2 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-8-dispense : 1 / 2 / 3
- /github/workspace/fsh-generated/resources/MedicationDispense-Dafalgan500mgDispense : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-minimal-dispense : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/MedicationDispense-medication-dispense-example-2 : 4 / 2 / 5
@@ -90,13 +89,6 @@ Generated Fri Jan 28 15:30:33 UTC 2022. FHIR version 4.0.1 for hl7.fhir.be.riziv
  /github/workspace/fsh-generated/resources/MedicationStatement-7-usage : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/MedicationStatement-8-treatmentLine : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/MedicationStatement-8-usage : 1 / 0 / 2
- /github/workspace/fsh-generated/resources/MedicationStatement-Asaflow500mg1xACM : 1 / 1 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-Asaflow500mg1xACMd : 1 / 1 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-Co-Bisoprolol25-625mg1xACM : 1 / 1 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-Co-Bisoprolol25-625mg1xACMd : 1 / 1 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-Dafalgan500mg1xmeal : 1 / 1 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-Dafalgan500mgmix : 1 / 1 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-Paracetamol500mg1xCV : 1 / 1 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-be-ns-cnk-codes : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-be-ns-prescription-ids : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-be-ns-product-package-type : 0 / 0 / 1
@@ -133,37 +125,23 @@ Generated Fri Jan 28 15:30:33 UTC 2022. FHIR version 4.0.1 for hl7.fhir.be.riziv
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[26].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource NamingSystem/be-ns-product-package-type.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource MedicationStatement/Paracetamol500mg1xCV.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/Paracetamol500mg1xCV.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource MedicationDispense/example-dispense-communitypharmacy-1med.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-dispense-communitypharmacy-1med.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Condition/pharyngitis-condition.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/pharyngitis-condition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource NamingSystem/be-ns-prescription-ids.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource MedicationStatement/Co-Bisoprolol25-625mg1xACM.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/Co-Bisoprolol25-625mg1xACM.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Condition/arthritis-condition.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/arthritis-condition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource MedicationStatement/Asaflow500mg1xACM.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/Asaflow500mg1xACM.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Bundle/EB.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/EB.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CarePlan/13-treatment.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource MedicationStatement/Co-Bisoprolol25-625mg1xACMd.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/Co-Bisoprolol25-625mg1xACMd.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource MedicationDispense/example-minimal-dispense.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-minimal-dispense.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Condition/toothache-condition.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/toothache-condition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource MedicationStatement/Dafalgan500mg1xmeal.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/Dafalgan500mg1xmeal.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource MedicationStatement/Dafalgan500mgmix.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/Dafalgan500mgmix.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Condition/headache-condition.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/headache-condition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource NamingSystem/be-ns-cnk-codes.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource MedicationDispense/Dafalgan500mgDispense.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/Dafalgan500mgDispense.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Condition/diarrhea-condition.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/diarrhea-condition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Condition/reflux-condition.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
@@ -174,8 +152,6 @@ ERROR: Unable to find ImplementationGuide.definition.resource.name for the resou
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/hypertension-condition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Condition/hyperlipidemia-condition.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/hyperlipidemia-condition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource MedicationStatement/Asaflow500mg1xACMd.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/Asaflow500mg1xACMd.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: StructureDefinition-be-model-medication-dispense.html: The reference CodeableReference could not be resolved
 ERROR: StructureDefinition-be-model-medication-dispense.html: The reference quantity could not be resolved
 ERROR: /github/workspace/output/Bundle-EB.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 127, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
@@ -518,12 +494,6 @@ ERROR: /github/workspace/output/MedicationDispense-8-dispense.html#/html/body/di
 ERROR: /github/workspace/output/MedicationDispense-8-dispense.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-8-dispense.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-8-dispense.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-Dafalgan500mgDispense.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 127, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-Dafalgan500mgDispense.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-Dafalgan500mgDispense.html#/html/body/div/div/div/div/div/div/p/a at Line 247, column 550: The link 'Patient1' for "Patient1" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-Dafalgan500mgDispense.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-Dafalgan500mgDispense.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-Dafalgan500mgDispense.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-dispense-communitypharmacy-1med.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 127, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-dispense-communitypharmacy-1med.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-dispense-communitypharmacy-1med.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
@@ -701,48 +671,6 @@ ERROR: /github/workspace/output/MedicationStatement-8-usage.html#/html/body/div/
 ERROR: /github/workspace/output/MedicationStatement-8-usage.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/MedicationStatement-8-usage.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/MedicationStatement-8-usage.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACM.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 127, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACM.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACM.html#/html/body/div/div/div/div/div/div/p/a at Line 247, column 529: The link 'Patient1' for "Patient1" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACM.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACM.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACM.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACMd.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 127, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACMd.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACMd.html#/html/body/div/div/div/div/div/div/p/a at Line 247, column 530: The link 'Patient1' for "Patient1" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACMd.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACMd.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Asaflow500mg1xACMd.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACM.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 127, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACM.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACM.html#/html/body/div/div/div/div/div/div/p/a at Line 247, column 549: The link 'Patient1' for "Patient1" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACM.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACM.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACM.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACMd.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 127, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACMd.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACMd.html#/html/body/div/div/div/div/div/div/p/a at Line 247, column 550: The link 'Patient1' for "Patient1" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACMd.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACMd.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Co-Bisoprolol25-625mg1xACMd.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mg1xmeal.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 127, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mg1xmeal.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mg1xmeal.html#/html/body/div/div/div/div/div/div/p/a at Line 247, column 530: The link 'Patient1' for "Patient1" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mg1xmeal.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mg1xmeal.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mg1xmeal.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mgmix.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 127, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mgmix.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mgmix.html#/html/body/div/div/div/div/div/div/p/a at Line 247, column 520: The link 'Patient1' for "Patient1" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mgmix.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mgmix.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Dafalgan500mgmix.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Paracetamol500mg1xCV.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 127, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Paracetamol500mg1xCV.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Paracetamol500mg1xCV.html#/html/body/div/div/div/div/div/div/p/a at Line 247, column 531: The link 'Patient1' for "Patient1" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Paracetamol500mg1xCV.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Paracetamol500mg1xCV.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-Paracetamol500mg1xCV.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/NamingSystem-be-ns-cnk-codes.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 127, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/NamingSystem-be-ns-cnk-codes.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/NamingSystem-be-ns-cnk-codes.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
@@ -1169,10 +1097,6 @@ INFORMATION: MedicationDispense/8-dispense: MedicationDispense.medication.ofType
 WARNING: MedicationDispense/8-dispense: MedicationDispense.performer[0].function.coding[0]: A code with no system has no defined meaning. A system should be provided
 WARNING: MedicationDispense/8-dispense: MedicationDispense.performer[1].function.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/8-dispense: MedicationDispense.quantity: Code System URI 'http://standardterms.edqm.eu/PAC' is unknown so the code cannot be validated
-== fsh-generated/resources/MedicationDispense-Dafalgan500mgDispense.json ==
-ERROR: MedicationDispense/Dafalgan500mgDispense: MedicationDispense.status: The value provided ('active') is not in the value set 'Medication dispense  status  codes' (http://hl7.org/fhir/ValueSet/medicationdispense-status|4.0.1), and a code is required from this value set) (error message = Unknown Code http://terminology.hl7.org/CodeSystem/medicationdispense-status#active in http://terminology.hl7.org/CodeSystem/medicationdispense-status)
-WARNING: MedicationDispense/Dafalgan500mgDispense: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationDispense/Dafalgan500mgDispense: MedicationDispense.subject: Unable to resolve resource 'Patient1'
 == fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med.json ==
 WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
@@ -1287,27 +1211,6 @@ INFORMATION: MedicationStatement/8-treatmentLine: MedicationStatement.medication
 == fsh-generated/resources/MedicationStatement-8-usage.json ==
 ERROR: MedicationStatement/8-usage: MedicationStatement: The modifier extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (allowed = e:Condition; this element is [[MedicationStatement])
 INFORMATION: MedicationStatement/8-usage: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
-== fsh-generated/resources/MedicationStatement-Asaflow500mg1xACM.json ==
-WARNING: MedicationStatement/Asaflow500mg1xACM: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Asaflow500mg1xACM: MedicationStatement.subject: Unable to resolve resource 'Patient1'
-== fsh-generated/resources/MedicationStatement-Asaflow500mg1xACMd.json ==
-WARNING: MedicationStatement/Asaflow500mg1xACMd: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Asaflow500mg1xACMd: MedicationStatement.subject: Unable to resolve resource 'Patient1'
-== fsh-generated/resources/MedicationStatement-Co-Bisoprolol25-625mg1xACM.json ==
-WARNING: MedicationStatement/Co-Bisoprolol25-625mg1xACM: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Co-Bisoprolol25-625mg1xACM: MedicationStatement.subject: Unable to resolve resource 'Patient1'
-== fsh-generated/resources/MedicationStatement-Co-Bisoprolol25-625mg1xACMd.json ==
-WARNING: MedicationStatement/Co-Bisoprolol25-625mg1xACMd: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Co-Bisoprolol25-625mg1xACMd: MedicationStatement.subject: Unable to resolve resource 'Patient1'
-== fsh-generated/resources/MedicationStatement-Dafalgan500mg1xmeal.json ==
-WARNING: MedicationStatement/Dafalgan500mg1xmeal: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Dafalgan500mg1xmeal: MedicationStatement.subject: Unable to resolve resource 'Patient1'
-== fsh-generated/resources/MedicationStatement-Dafalgan500mgmix.json ==
-WARNING: MedicationStatement/Dafalgan500mgmix: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Dafalgan500mgmix: MedicationStatement.subject: Unable to resolve resource 'Patient1'
-== fsh-generated/resources/MedicationStatement-Paracetamol500mg1xCV.json ==
-WARNING: MedicationStatement/Paracetamol500mg1xCV: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Paracetamol500mg1xCV: MedicationStatement.subject: Unable to resolve resource 'Patient1'
 == fsh-generated/resources/NamingSystem-be-ns-cnk-codes.json ==
 == fsh-generated/resources/NamingSystem-be-ns-prescription-ids.json ==
 == fsh-generated/resources/NamingSystem-be-ns-product-package-type.json ==
