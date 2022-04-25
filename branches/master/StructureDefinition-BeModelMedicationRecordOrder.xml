@@ -29,7 +29,7 @@
   <name value="BeModelMedicationRecordOrder"/>
   <title value="Medication Record Prescription logical model"/>
   <status value="active"/>
-  <date value="2022-01-28T15:29:20+00:00"/>
+  <date value="2022-04-25T09:14:05+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -290,8 +290,8 @@
     </element>
     <element id="BeModelMedicationRecordOrder.treatmentPlan">
       <path value="BeModelMedicationRecordOrder.treatmentPlan"/>
-      <short value="Link to the &#39;parent&#39; treatment - i.e the treatment that this order is derived from, or contriburing to"/>
-      <definition value="Link to the &#39;parent&#39; treatment - i.e the treatment that this order is derived from, or contriburing to"/>
+      <short value="Link to the 'parent' treatment - i.e the treatment that this order is derived from, or contriburing to"/>
+      <definition value="Link to the 'parent' treatment - i.e the treatment that this order is derived from, or contriburing to"/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -305,8 +305,8 @@
     </element>
     <element id="BeModelMedicationRecordOrder.basedOn">
       <path value="BeModelMedicationRecordOrder.basedOn"/>
-      <short value="link to the &#39;parent&#39; treatmentLine - i.e the line that covers all of the same drug for a certain purpose"/>
-      <definition value="link to the &#39;parent&#39; treatmentLine - i.e the line that covers all of the same drug for a certain purpose"/>
+      <short value="link to the 'parent' treatmentLine - i.e the line that covers all of the same drug for a certain purpose"/>
+      <definition value="link to the 'parent' treatmentLine - i.e the line that covers all of the same drug for a certain purpose"/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -476,8 +476,8 @@
     </element>
     <element id="BeModelMedicationRecordOrder.treatmentPlan">
       <path value="BeModelMedicationRecordOrder.treatmentPlan"/>
-      <short value="Link to the &#39;parent&#39; treatment - i.e the treatment that this order is derived from, or contriburing to"/>
-      <definition value="Link to the &#39;parent&#39; treatment - i.e the treatment that this order is derived from, or contriburing to"/>
+      <short value="Link to the 'parent' treatment - i.e the treatment that this order is derived from, or contriburing to"/>
+      <definition value="Link to the 'parent' treatment - i.e the treatment that this order is derived from, or contriburing to"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -486,8 +486,8 @@
     </element>
     <element id="BeModelMedicationRecordOrder.basedOn">
       <path value="BeModelMedicationRecordOrder.basedOn"/>
-      <short value="link to the &#39;parent&#39; treatmentLine - i.e the line that covers all of the same drug for a certain purpose"/>
-      <definition value="link to the &#39;parent&#39; treatmentLine - i.e the line that covers all of the same drug for a certain purpose"/>
+      <short value="link to the 'parent' treatmentLine - i.e the line that covers all of the same drug for a certain purpose"/>
+      <definition value="link to the 'parent' treatmentLine - i.e the line that covers all of the same drug for a certain purpose"/>
       <min value="0"/>
       <max value="1"/>
       <type>
