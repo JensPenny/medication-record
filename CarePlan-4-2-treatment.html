@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>HL7.FHIR.BE.RIZIV-MEDICATIONRECORD\Example 4 - Treatment 2 - FHIR v4.0.1</title>
+    <title>HL7.FHIR.BE.RIZIV-MEDICATIONRECORD\Treatment for Toothache - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -46,8 +46,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.47"}
-    h3,h4,h5,h6{--heading-prefix:"7.47"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.109"}
+    h3,h4,h5,h6{--heading-prefix:"7.109"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -114,7 +114,10 @@
 		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Functional Description<b class="caret"></b>
 		</a>
 		<ul class="dropdown-menu">
-			<li><a name="l200">​</a>
+			<li>
+				<a href="functional-description.html">Description</a>
+			</li>
+			<li><a name="l206">​</a>
 				<a href="usecases.html">Use Cases</a>
 			</li>
 			<li>
@@ -172,7 +175,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Example 4 - Treatment 2</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Treatment for Toothache</b></li>
           
         </ul>
       </div>    <!-- /container -->
@@ -188,6 +191,8 @@
     <!-- ReleaseHeader --><p id="publish-box">MedicationRecord - Local Development build (v0.1.0-test). See the <a href="http://hl7belgium.org/fhir/riziv-medicationrecord/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
   
+
+
 
 
 
@@ -223,7 +228,7 @@
   <a name="root"> </a>
 
 
-  <h2 id="root">Example CarePlan: Example 4 - Treatment 2</h2>
+  <h2 id="root">Example CarePlan: Treatment for Toothache</h2>
 
 
 
@@ -232,7 +237,7 @@
 
 
 
-  <div><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "4-2-treatment" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-MedRecordTreatment.html">MedRecord Treatment profile</a></p></div><p><b>identifier</b>: id: 0d462dac-513a-4fb0-a2fe-fb7f53b27c5d</p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>title</b>: Treatment for Toothache</p><p><b>subject</b>: <span></span></p><p><b>created</b>: 2021-07-19T13:00:00+02:00</p><p><b>addresses</b>: <a href="Condition-toothache-condition.html">Condition/toothache-condition</a></p></div>
+  <div><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "4-2-treatment" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-MedRecordTreatment.html">MedRecord Treatment profile</a></p></div><p><b>identifier</b>: id: 0d462dac-513a-4fb0-a2fe-fb7f53b27c5d</p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>title</b>: Treatment for Toothache</p><p><b>subject</b>: <span></span></p><p><b>created</b>: 2021-07-19 01:00:00+0200</p><p><b>addresses</b>: <a href="Condition-toothache-condition.html">Condition/toothache-condition</a></p></div>
 
     <!-- insert notes if present -->
   
@@ -254,16 +259,12 @@
           $('a[href="' + window.location.hash + '"]').click()
       }
     });
-    var a=document.getElementById('dockerLine').innerHTML;
-    document.getElementById('dockerLine').innerHTML= 'docker run -p 8080:8080 -e hapi.fhir.default_encoding=json -e "--spring.config.location='+ a +'application.yaml';
-    document.getElementById('localDockerLine').innerHTML = 'docker run -p 8080:8080 -e hapi.fhir.default_encoding=json -e "--spring.config.location='+location.href.replace(/[^/]*$/, '')+'application.yaml'
-
   </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium</a>.  Package hl7.fhir.be.riziv-medicationrecord#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 28, 2022 15:30+0000">2022-01-28</span>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium</a>.  Package hl7.fhir.be.riziv-medicationrecord#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 25, 2022 09:14+0000">2022-04-25</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

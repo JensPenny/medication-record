@@ -13,6 +13,24 @@
     }
   ],
   "profiles": {
+    "Organization": [
+      {
+        "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeOrganization",
+        "title": "BeOrganization"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BePatient",
+        "title": "BePatient"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BePractitioner",
+        "title": "BePractitioner"
+      }
+    ],
     "Bundle": [
       {
         "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/MedRecord",
@@ -21,8 +39,12 @@
     ],
     "Composition": [
       {
-        "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/MedRecord-comp",
-        "title": "Medication Record Composition profile"
+        "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/med-view-comp",
+        "title": "Medication View profile"
+      },
+      {
+        "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/sche-view-comp",
+        "title": "Medication View profile -second visualization"
       }
     ],
     "MedicationAdministration": [

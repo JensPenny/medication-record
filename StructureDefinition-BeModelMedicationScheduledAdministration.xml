@@ -24,7 +24,7 @@
   <name value="BeModelMedicationScheduledAdministration"/>
   <title value="Medication Record Scheduled Administration logical model"/>
   <status value="active"/>
-  <date value="2022-01-28T15:30:41+00:00"/>
+  <date value="2022-04-25T09:14:05+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -224,8 +224,8 @@
     </element>
     <element id="BeModelMedicationScheduledAdministration.treatmentPlan">
       <path value="BeModelMedicationScheduledAdministration.treatmentPlan"/>
-      <short value="Link to the &#39;parent&#39; treatment - i.e the treatment that this order is derived from, or contriburing to"/>
-      <definition value="Link to the &#39;parent&#39; treatment - i.e the treatment that this order is derived from, or contriburing to"/>
+      <short value="Link to the 'parent' treatment - i.e the treatment that this order is derived from, or contriburing to"/>
+      <definition value="Link to the 'parent' treatment - i.e the treatment that this order is derived from, or contriburing to"/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -354,8 +354,8 @@
     </element>
     <element id="BeModelMedicationScheduledAdministration.treatmentPlan">
       <path value="BeModelMedicationScheduledAdministration.treatmentPlan"/>
-      <short value="Link to the &#39;parent&#39; treatment - i.e the treatment that this order is derived from, or contriburing to"/>
-      <definition value="Link to the &#39;parent&#39; treatment - i.e the treatment that this order is derived from, or contriburing to"/>
+      <short value="Link to the 'parent' treatment - i.e the treatment that this order is derived from, or contriburing to"/>
+      <definition value="Link to the 'parent' treatment - i.e the treatment that this order is derived from, or contriburing to"/>
       <min value="0"/>
       <max value="1"/>
       <type>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ea3f3075-1914-42dc-a06a-aebf776ade8e"/>
+  <id value="8275a28f-a5e7-436d-a980-33ba5f9e4e51"/>
   <meta>
-    <lastUpdated value="2022-01-28T15:30:41.900+00:00"/>
+    <lastUpdated value="2022-04-25T09:14:05.463+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -19,15 +19,15 @@
               <p>Expansion based on: </p>
               <ul>
                 <li>
-                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActReason.html">ActReason v2.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActReason.html">ActReason v2.1.0 (CodeSystem)</a>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/3.0.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html">SubstanceAdminSubstitutionReason v2.0.0 (ValueSet)</a>
+                  <a href="http://terminology.hl7.org/3.1.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html">SubstanceAdminSubstitutionReason v2.0.0 (ValueSet)</a>
                 </li>
               </ul>
             </div>
             <p>All codes in this table are from the system 
-              <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActReason.html">
+              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActReason.html">
                 <code>http://terminology.hl7.org/CodeSystem/v3-ActReason</code>
               </a>
             </p>
@@ -45,40 +45,40 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActReason-CT"> </a>
-                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActReason.html#v3-ActReason-CT">CT</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActReason-CT"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActReason.html#v3-ActReason-CT">CT</a>
                 </td>
                 <td>continuing therapy</td>
                 <td>Indicates that the decision to substitute or to not substitute was driven by a desire to maintain consistency with a pre-existing therapy. I.e. The performer provided the same item/service as had been previously provided rather than providing exactly what was ordered, or rather than substituting with a lower-cost equivalent.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActReason-FP"> </a>
-                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActReason.html#v3-ActReason-FP">FP</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActReason-FP"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActReason.html#v3-ActReason-FP">FP</a>
                 </td>
                 <td>formulary policy</td>
                 <td>Indicates that the decision to substitute or to not substitute was driven by a policy expressed within the formulary.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActReason-OS"> </a>
-                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActReason.html#v3-ActReason-OS">OS</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActReason-OS"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActReason.html#v3-ActReason-OS">OS</a>
                 </td>
                 <td>out of stock</td>
-                <td>In the case of &#39;substitution&#39;, indicates that the substitution occurred because the ordered item was not in stock. In the case of &#39;no substitution&#39;, indicates that a cheaper equivalent was not substituted because it was not in stock.</td>
+                <td>In the case of 'substitution', indicates that the substitution occurred because the ordered item was not in stock. In the case of 'no substitution', indicates that a cheaper equivalent was not substituted because it was not in stock.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActReason-RR"> </a>
-                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActReason.html#v3-ActReason-RR">RR</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActReason-RR"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActReason.html#v3-ActReason-RR">RR</a>
                 </td>
                 <td>regulatory requirement</td>
                 <td>Indicates that the decision to substitute or to not substitute was driven by a jurisdictional regulatory requirement mandating or prohibiting substitution.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActReason-UNABLE"> </a>
-                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActReason.html#v3-ActReason-UNABLE">UNABLE</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActReason-UNABLE"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActReason.html#v3-ActReason-UNABLE">UNABLE</a>
                 </td>
                 <td>unable to use</td>
                 <td>**Description:**&lt;The patient is not (or is no longer) able to use the medication in a manner prescribed.
@@ -93,7 +93,7 @@
         <name value="SubstitutionReason"/>
         <title value="Medication Substitution Value Set"/>
         <status value="active"/>
-        <date value="2022-01-28T15:30:41+00:00"/>
+        <date value="2022-04-25T09:14:05+00:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -109,8 +109,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:477ddeac-1798-4e25-9343-7e194733d747"/>
-          <timestamp value="2022-01-28T15:31:26+00:00"/>
+          <identifier value="urn:uuid:fee6c1fb-446b-4790-8478-c4de30f48037"/>
+          <timestamp value="2022-04-25T09:14:39+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -122,33 +122,25 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-ActReason|2.0.0"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-ActReason|2.1.0"/>
           </parameter>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
             <code value="CT"/>
             <display value="continuing therapy"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
             <code value="FP"/>
             <display value="formulary policy"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
             <code value="OS"/>
             <display value="out of stock"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
             <code value="RR"/>
             <display value="regulatory requirement"/>
           </contains>
@@ -169,7 +161,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 2 concepts</p>
+            <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-be-cs-medication-summary-types.html">Medication Summary Types CodeSystem v0.1.0-test (CodeSystem)</a>
             </p>
@@ -189,17 +181,31 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.6"> </a>
+                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.6"> </a>  
                   <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.466">kmehr-ms-5.6</a>
                 </td>
                 <td>Belgian Medication Schema v5.6 - 09/2018</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.5"> </a>
+                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.5"> </a>  
                   <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.465">kmehr-ms-5.5</a>
                 </td>
                 <td>Belgian Medication Schema v5.5 - 12-2017</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-Scheduled"> </a>  
+                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-Scheduled">Scheduled</a>
+                </td>
+                <td>Scheduled Takes View</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-Summary"> </a>  
+                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-Summary">Summary</a>
+                </td>
+                <td>Summary view for a physician</td>
               </tr>
             </table>
           </div>
@@ -209,7 +215,7 @@
         <name value="BeVSMedicationSummaryTypes"/>
         <title value="Medication Summary Types Value Set"/>
         <status value="active"/>
-        <date value="2022-01-28T15:30:41+00:00"/>
+        <date value="2022-04-25T09:14:05+00:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -225,9 +231,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2ef7a404-c235-4b46-8314-91a2403fe78d"/>
-          <timestamp value="2022-01-28T15:31:41+00:00"/>
-          <total value="2"/>
+          <identifier value="urn:uuid:b70bdbfe-edac-4838-9c85-bd068434a965"/>
+          <timestamp value="2022-04-25T09:15:03+00:00"/>
+          <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -245,6 +251,16 @@
             <system value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types"/>
             <code value="kmehr-ms-5.5"/>
             <display value="Belgian Medication Schema v5.5 - 12-2017"/>
+          </contains>
+          <contains>
+            <system value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types"/>
+            <code value="Scheduled"/>
+            <display value="Scheduled Takes View"/>
+          </contains>
+          <contains>
+            <system value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types"/>
+            <code value="Summary"/>
+            <display value="Summary view for a physician"/>
           </contains>
         </expansion>
       </ValueSet>

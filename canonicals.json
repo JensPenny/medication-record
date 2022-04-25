@@ -175,6 +175,34 @@
     "name": "BeModelMedicationScheduledAdministration"
   },
   {
+    "id": "BeModelMedicationView",
+    "type": "StructureDefinition",
+    "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeModelMedicationView",
+    "version": "0.1.0-test",
+    "name": "BeModelMedicationView"
+  },
+  {
+    "id": "BeOrganization",
+    "type": "StructureDefinition",
+    "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeOrganization",
+    "version": "0.1.0-test",
+    "name": "BeOrganization"
+  },
+  {
+    "id": "BePatient",
+    "type": "StructureDefinition",
+    "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BePatient",
+    "version": "0.1.0-test",
+    "name": "BePatient"
+  },
+  {
+    "id": "BePractitioner",
+    "type": "StructureDefinition",
+    "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BePractitioner",
+    "version": "0.1.0-test",
+    "name": "BePractitioner"
+  },
+  {
     "id": "KMEHRv58",
     "type": "StructureDefinition",
     "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/KMEHRv58",
@@ -259,11 +287,25 @@
     "name": "BeMedicationDispense"
   },
   {
+    "id": "med-view-comp",
+    "type": "StructureDefinition",
+    "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/med-view-comp",
+    "version": "0.1.0-test",
+    "name": "MedicationView"
+  },
+  {
     "id": "related-tl",
     "type": "StructureDefinition",
     "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/related-tl",
     "version": "0.1.0-test",
     "name": "RelatedTreatmentLine"
+  },
+  {
+    "id": "sche-view-comp",
+    "type": "StructureDefinition",
+    "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/sche-view-comp",
+    "version": "0.1.0-test",
+    "name": "scheduledView"
   },
   {
     "id": "be-vs-medication-summary-types",

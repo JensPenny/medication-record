@@ -23,7 +23,7 @@
   <name value="BeModelMedicationRecord"/>
   <title value="Medication Record logical model"/>
   <status value="active"/>
-  <date value="2022-01-28T15:30:41+00:00"/>
+  <date value="2022-04-25T09:14:05+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -31,7 +31,7 @@
       <value value="http://hl7belgium.org"/>
     </telecom>
   </contact>
-  <description value="A model for a structure collection of a patient&#39;s medication history."/>
+  <description value="A model for a structure collection of a patient's medication history."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -53,7 +53,7 @@
     <element id="BeModelMedicationRecord">
       <path value="BeModelMedicationRecord"/>
       <short value="Medication Record logical model"/>
-      <definition value="A model for a structure collection of a patient&#39;s medication history."/>
+      <definition value="A model for a structure collection of a patient's medication history."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -248,7 +248,7 @@
     <element id="BeModelMedicationRecord">
       <path value="BeModelMedicationRecord"/>
       <short value="Medication Record logical model"/>
-      <definition value="A model for a structure collection of a patient&#39;s medication history."/>
+      <definition value="A model for a structure collection of a patient's medication history."/>
     </element>
     <element id="BeModelMedicationRecord.identifier">
       <path value="BeModelMedicationRecord.identifier"/>
