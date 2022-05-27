@@ -108,9 +108,6 @@
       "MedicationRequest",
       "MedicationStatement"
     ],
-    "http://hl7.org/fhir/StructureDefinition/geolocation": [
-      "MedicationDispense.contained"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
     ],

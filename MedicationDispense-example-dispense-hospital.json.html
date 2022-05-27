@@ -20,7 +20,6 @@
   	<link rel="stylesheet" href="assets/css/prism.css"/>
       <!-- Placeholder for child template CSS declarations -->
 <link rel="stylesheet" href="assets/css/hl7-be.css"/>
-<link rel="stylesheet" href="assets/css/riziv.css"/>
 
     <script src="fhir-table-scripts.js" type="text/javascript"> </script>
   <!-- Questionnaire: -->
@@ -50,23 +49,25 @@
     h3,h4,h5,h6{--heading-prefix:"7.119"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-          <!-- Left logo - typically the publisher's logo - project or affiliate -->
-        <div id="project-nav">
-          <a no-external="true" id="project-logo" href="http://hl7.eu">
-            <img src="assets/images/riziv.png" alt="Project home" height="71"/>
+          <!-- Placeholder for child template header declarations -->
+
+        <div id="ig-nav">
+          <a no-external="true" id="hl7-logo" href="https://hl7-be.github.io">
+            <img src="assets/images/hl7be-logo-header.png" alt="HL7 Belgium" height="65"/>
           </a>
         </div>
-
-  <!-- Right logo - for example the FHIR logo -->
-  <!-- Make sure you have authorization to use the FHIR logo -->
-        <div id="family-nav">
-          <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/hl7-be.png" alt="FHIR website" height="70"/> </a>
+        <div id="fhir-nav">
+          <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
         </div>
-
-  <!-- search icon - if you want -->
-  <!-- <div id="hl7-search">
-          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-        </div> -->
+        <div id="ig-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+  <!-- Left logo - typically the publisher's logo - project or affiliate -->
+        <div id="project-nav">
+          <a no-external="true" id="project-logo" href="http://hl7belgium.org">
+            <img src="assets/images/meds.png" alt="Project home" height="71"/>
+          </a>
+        </div>
 
 
         <div id="ig-status">
@@ -117,7 +118,7 @@
 			<li>
 				<a href="functional-description.html">Description</a>
 			</li>
-			<li><a name="l206">​</a>
+			<li><a name="l212">​</a>
 				<a href="usecases.html">Use Cases</a>
 			</li>
 			<li>
@@ -201,13 +202,13 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="MedicationDispense-medication-dispense-hospital.html">Narrative Content</a>
+    <a href="MedicationDispense-example-dispense-hospital.html">Narrative Content</a>
   </li>
 
 
   
     <li>
-      <a href="MedicationDispense-medication-dispense-hospital.xml.html">XML</a>
+      <a href="MedicationDispense-example-dispense-hospital.xml.html">XML</a>
     </li>
   
 
@@ -242,7 +243,7 @@
   </table>
 
 
-<p><a href="MedicationDispense-medication-dispense-hospital.json" no-download="true">Raw json</a> | <a download="null" href="MedicationDispense-medication-dispense-hospital.json">Download</a></p>
+<p><a href="MedicationDispense-example-dispense-hospital.json" no-download="true">Raw json</a> | <a download="null" href="MedicationDispense-example-dispense-hospital.json">Download</a></p>
 
     <!-- insert intro if present -->
   
@@ -252,14 +253,14 @@
   <pre class="json"><code class="language-json">
 {
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense">resourceType</a>" : "MedicationDispense",
-  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.id">id</a>" : "medication-dispense-hospital",
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.id">id</a>" : "example-dispense-hospital",
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.meta">meta</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a>" : "1"
   },
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.language">language</a>" : "nl-BE",
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"nl-BE\" lang=\"nl-BE\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource \"medication-dispense-hospital\" Version \"1\"  (Language \"nl-BE\") &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: 1000321345: ?ngen-9?&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;medication&lt;/b&gt;: 2055218 &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (cnk_product_codes#2055218 \"null\")&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;authorizingPrescription&lt;/b&gt;: &lt;span&gt;: Prescription&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 1 package&lt;span style=\"background: LightGoldenRodYellow\"&gt; (Details: http://hl7.org/fhir/Valueset/ucum-units code {package} = '{package}')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;whenHandedOver&lt;/b&gt;: 2020-09-21 01:00:00+0200&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"nl-BE\" lang=\"nl-BE\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource \"example-dispense-hospital\" Version \"1\"  (Language \"nl-BE\") &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: dguid: 1000321345&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;medication&lt;/b&gt;: 2055218 &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (cnk_product_codes#2055218 \"null\")&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Performers&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Actor&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;authorizingPrescription&lt;/b&gt;: &lt;span&gt;: Prescription&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 1 package&lt;span style=\"background: LightGoldenRodYellow\"&gt; (Details: http://hl7.org/fhir/Valueset/ucum-units code {package} = '{package}')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;whenHandedOver&lt;/b&gt;: 2020-09-21 01:00:00+0200&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.identifier">identifier</a>" : [
     {
@@ -268,11 +269,12 @@
           {
             "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "https://www.nexuzhealth.be/fhir/prescription/ambulatory",
             "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.version">version</a>" : "1",
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "1000321345"
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "dguid"
           }
         ]
       },
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.gfd-dpp.be/fhir/reference/dguid"
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.gfd-dpp.be/fhir/reference/dguid",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "1000321345"
     }
   ],
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.status">status</a>" : "completed",
@@ -307,6 +309,16 @@
       "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "64110219106"
     }
   },
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.performer">performer</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.performer.actor">actor</a>" : {
+        "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-organization",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "123123123"
+        }
+      }
+    }
+  ],
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.authorizingPrescription">authorizingPrescription</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>" : {
@@ -393,17 +405,13 @@
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium</a>.  Package hl7.fhir.be.riziv-medicationrecord#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 27, 2022 14:43+0000">2022-05-27</span>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium</a>.  Package hl7.fhir.be.riziv-medicationrecord#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 27, 2022 16:28+0000">2022-05-27</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-                 <a style="color: #81BEF7" href="http://hl7belgium.org/fhir/riziv-medicationrecord/history.html" target="_blank">Version History </a> |
-                 <a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R4/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a> |
-                   <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-
           </span>
         </p>
       </div>    <!-- /inner-wrapper -->

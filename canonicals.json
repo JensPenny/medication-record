@@ -308,6 +308,13 @@
     "name": "scheduledView"
   },
   {
+    "id": "be-vs-dispenser-types",
+    "type": "ValueSet",
+    "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/ValueSet/be-vs-dispenser-types",
+    "version": "0.1.0-test",
+    "name": "DispenserTypes"
+  },
+  {
     "id": "be-vs-medication-summary-types",
     "type": "ValueSet",
     "url": "http://hl7belgium.org/fhir/riziv-medicationrecord/ValueSet/be-vs-medication-summary-types",

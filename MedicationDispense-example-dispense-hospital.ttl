@@ -5,16 +5,16 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7belgium.org/fhir/riziv-medicationrecord/MedicationDispense/medication-dispense-hospital> a fhir:MedicationDispense;
+<http://hl7belgium.org/fhir/riziv-medicationrecord/MedicationDispense/example-dispense-hospital> a fhir:MedicationDispense;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "medication-dispense-hospital"];
+  fhir:Resource.id [ fhir:value "example-dispense-hospital"];
   fhir:Resource.meta [
      fhir:Meta.versionId [ fhir:value "1" ]
   ];
   fhir:Resource.language [ fhir:value "nl-BE"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"nl-BE\" lang=\"nl-BE\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"medication-dispense-hospital\" Version \"1\"  (Language \"nl-BE\") </p></div><p><b>identifier</b>: 1000321345: ?ngen-9?</p><p><b>status</b>: completed</p><p><b>medication</b>: 2055218 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (cnk_product_codes#2055218 \"null\")</span></p><p><b>subject</b>: <span></span></p><p><b>authorizingPrescription</b>: <span>: Prescription</span></p><p><b>quantity</b>: 1 package<span style=\"background: LightGoldenRodYellow\"> (Details: http://hl7.org/fhir/Valueset/ucum-units code {package} = '{package}')</span></p><p><b>whenHandedOver</b>: 2020-09-21 01:00:00+0200</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"nl-BE\" lang=\"nl-BE\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-dispense-hospital\" Version \"1\"  (Language \"nl-BE\") </p></div><p><b>identifier</b>: dguid: 1000321345</p><p><b>status</b>: completed</p><p><b>medication</b>: 2055218 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (cnk_product_codes#2055218 \"null\")</span></p><p><b>subject</b>: <span></span></p><h3>Performers</h3><table class=\"grid\"><tr><td>-</td><td><b>Actor</b></td></tr><tr><td>*</td><td><span></span></td></tr></table><p><b>authorizingPrescription</b>: <span>: Prescription</span></p><p><b>quantity</b>: 1 package<span style=\"background: LightGoldenRodYellow\"> (Details: http://hl7.org/fhir/Valueset/ucum-units code {package} = '{package}')</span></p><p><b>whenHandedOver</b>: 2020-09-21 01:00:00+0200</p></div>"
   ];
   fhir:MedicationDispense.identifier [
      fhir:index 0;
@@ -23,10 +23,11 @@
          fhir:index 0;
          fhir:Coding.system [ fhir:value "https://www.nexuzhealth.be/fhir/prescription/ambulatory" ];
          fhir:Coding.version [ fhir:value "1" ];
-         fhir:Coding.code [ fhir:value "1000321345" ]
+         fhir:Coding.code [ fhir:value "dguid" ]
        ]
      ];
-     fhir:Identifier.system [ fhir:value "https://www.gfd-dpp.be/fhir/reference/dguid" ]
+     fhir:Identifier.system [ fhir:value "https://www.gfd-dpp.be/fhir/reference/dguid" ];
+     fhir:Identifier.value [ fhir:value "1000321345" ]
   ];
   fhir:MedicationDispense.status [ fhir:value "completed"];
   fhir:MedicationDispense.medicationCodeableConcept [
@@ -55,6 +56,15 @@
      fhir:Reference.identifier [
        fhir:Identifier.system [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin" ];
        fhir:Identifier.value [ fhir:value "64110219106" ]
+     ]
+  ];
+  fhir:MedicationDispense.performer [
+     fhir:index 0;
+     fhir:MedicationDispense.performer.actor [
+       fhir:Reference.identifier [
+         fhir:Identifier.system [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-organization" ];
+         fhir:Identifier.value [ fhir:value "123123123" ]
+       ]
      ]
   ];
   fhir:MedicationDispense.authorizingPrescription [
@@ -113,7 +123,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7belgium.org/fhir/riziv-medicationrecord/MedicationDispense/medication-dispense-hospital.ttl> a owl:Ontology;
+<http://hl7belgium.org/fhir/riziv-medicationrecord/MedicationDispense/example-dispense-hospital.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -4,7 +4,7 @@
   <id value="example-dispense-communitypharmacy-1med"/>
   <language value="fr-BE"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-BE" lang="fr-BE"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-dispense-communitypharmacy-1med"  (Language "fr-BE") </p></div><p><b>identifier</b>: dguid: a8ca980c-72aa-11e7-8cf7-a6006ad3dba0</p><p><b>status</b>: completed</p><p><b>medication</b>: Topazolam tab 50x 1,0mg <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (cnk_product_codes#1439562)</span></p><p><b>subject</b>: <span></span></p><p><b>context</b>: <span></span></p><blockquote><p><b>performer</b></p><p><b>actor</b>: <span>: Jan Janssen</span></p></blockquote><blockquote><p><b>performer</b></p><p><b>actor</b>: <span>: Apotheek onder de toren</span></p></blockquote><p><b>authorizingPrescription</b>: <span>: Prescription</span></p><p><b>quantity</b>: 1(unit package from https://www.gfd-dpp.be/fhir/reference/packaging)<span style="background: LightGoldenRodYellow"> (Details: https://www.gfd-dpp.be/fhir/reference/packaging code package = 'package')</span></p><p><b>whenHandedOver</b>: 2020-03-10</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-BE" lang="fr-BE"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-dispense-communitypharmacy-1med"  (Language "fr-BE") </p></div><p><b>identifier</b>: dguid: a8ca980c-72aa-11e7-8cf7-a6006ad3dba0</p><p><b>status</b>: completed</p><p><b>medication</b>: Topazolam tab 50x 1,0mg <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (cnk_product_codes#1439562; <a href="http://terminology.hl7.org/3.1.0/CodeSystem-atc.html">WHO ATC</a>#N05CD05)</span></p><p><b>subject</b>: <span></span></p><p><b>context</b>: <span></span></p><blockquote><p><b>performer</b></p><p><b>actor</b>: <span>: Jan Janssen</span></p></blockquote><blockquote><p><b>performer</b></p><p><b>actor</b>: <span>: Apotheek onder de toren</span></p></blockquote><p><b>authorizingPrescription</b>: <span>: Prescription</span></p><p><b>quantity</b>: 1(unit package from https://www.gfd-dpp.be/fhir/reference/packaging)<span style="background: LightGoldenRodYellow"> (Details: https://www.gfd-dpp.be/fhir/reference/packaging code package = 'package')</span></p><p><b>whenHandedOver</b>: 2020-03-10</p></div>
   </text>
   <identifier>
     <type>
@@ -30,6 +30,10 @@
           </extension>
         </extension>
       </display>
+    </coding>
+    <coding>
+      <system value="http://www.whocc.no/atc"/>
+      <code value="N05CD05"/>
     </coding>
   </medicationCodeableConcept>
   <subject>

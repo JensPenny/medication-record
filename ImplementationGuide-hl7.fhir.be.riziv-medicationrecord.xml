@@ -12,7 +12,7 @@
   <title value="MedicationRecord"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-05-27T14:43:08+00:00"/>
+  <date value="2022-05-27T16:28:46+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -1244,6 +1244,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/be-vs-dispenser-types"/>
+      </reference>
+      <name value="Dispenser Types"/>
+      <description value="Dispenser Types - from hcparty"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="MedicationStatement"/>
       </extension>
       <reference>
@@ -1322,6 +1332,14 @@
       </extension>
       <reference>
         <reference value="Provenance/7-1-provenance"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/example-dispense-hospital"/>
       </reference>
     </resource>
     <resource>
@@ -1520,14 +1538,6 @@
       </extension>
       <reference>
         <reference value="Provenance/2-2-provenance"/>
-      </reference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationDispense"/>
-      </extension>
-      <reference>
-        <reference value="MedicationDispense/medication-dispense-hospital"/>
       </reference>
     </resource>
     <resource>
