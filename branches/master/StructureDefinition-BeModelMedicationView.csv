@@ -1,28 +1,28 @@
-"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
-"BeModelMedicationView","","","",0,*,"","","","","Medication View logical model","A model for a visualization of the patient's medication","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
-"BeModelMedicationView.identifier","","","",0,1,"","","","Identifier {[]} {[]}
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"BeModelMedicationView","BeModelMedicationView","","","",0,*,"","","","","Medication View logical model","A model for a visualization of the patient's medication","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"BeModelMedicationView.identifier","BeModelMedicationView.identifier","","","",0,1,"","","","Identifier {[]} {[]}
 ","The business identifier(s) for the Medication View","The business identifier(s) for the Medication View","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.identifier",0,1,"",""
-"BeModelMedicationView.patient","","","",1,1,"","","","Reference {[]} {[]}
+"BeModelMedicationView.patient","BeModelMedicationView.patient","","","",1,1,"","","","Reference {[]} {[]}
 ","The subject of the medication record","The subject of the medication record","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.patient",1,1,"",""
-"BeModelMedicationView.treatments","","","",0,*,"","","","BackboneElement {[]} {[]}
+"BeModelMedicationView.treatments","BeModelMedicationView.treatments","","","",0,*,"","","","BackboneElement {[]} {[]}
 ","The treaments that are included in this record","The treaments that are included in this record","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.treatments",0,*,"",""
-"BeModelMedicationView.treatments.indication","","","",0,*,"","","","CodeableConcept {[]} {[]}
+"BeModelMedicationView.treatments.indication","BeModelMedicationView.treatments.indication","","","",0,*,"","","","CodeableConcept {[]} {[]}
 ","Why the treatment exists","Why the treatment exists","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.treatments.indication",0,*,"",""
-"BeModelMedicationView.treatments.treatmentLines","","","",0,*,"","","","BackboneElement {[]} {[]}
+"BeModelMedicationView.treatments.treatmentLines","BeModelMedicationView.treatments.treatmentLines","","","",0,*,"","","","BackboneElement {[]} {[]}
 ","The treatment lines that are included in this record","The treatment lines that are included in this record","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.treatments.treatmentLines",0,*,"",""
-"BeModelMedicationView.treatments.treatmentLines.product[x]","","","",1,1,"","","","CodeableConcept {[]} {[]}
+"BeModelMedicationView.treatments.treatmentLines.product[x]","BeModelMedicationView.treatments.treatmentLines.product[x]","","","",1,1,"","","","CodeableConcept {[]} {[]}
 Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Medication]]}","Product for which the treatment line refers to","Product for which the treatment line refers to","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.treatments.treatmentLines.product[x]",1,1,"",""
-"BeModelMedicationView.treatments.treatmentLines.detailedRecords","","","",0,*,"","","","BackboneElement {[]} {[]}
+"BeModelMedicationView.treatments.treatmentLines.detailedRecords","BeModelMedicationView.treatments.treatmentLines.detailedRecords","","","",0,*,"","","","BackboneElement {[]} {[]}
 ","Detailed records","Detailed records - the most granular interactions","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.treatments.treatmentLines.detailedRecords",0,*,"",""
-"BeModelMedicationView.treatments.treatmentLines.detailedRecords.orders","","","",0,*,"","","","http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeModelMedicationRecordOrder {[]} {[]}
+"BeModelMedicationView.treatments.treatmentLines.detailedRecords.orders","BeModelMedicationView.treatments.treatmentLines.detailedRecords.orders","","","",0,*,"","","","http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeModelMedicationRecordOrder {[]} {[]}
 ","Explicit or implicit order for medication use or changes","Explicit or implicit order for medication use or changes","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.treatments.treatmentLines.detailedRecords.orders",0,*,"",""
-"BeModelMedicationView.treatments.treatmentLines.detailedRecords.schedule","","","",0,*,"","","","http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeModelMedicationScheduledAdministration {[]} {[]}
+"BeModelMedicationView.treatments.treatmentLines.detailedRecords.schedule","BeModelMedicationView.treatments.treatmentLines.detailedRecords.schedule","","","",0,*,"","","","http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeModelMedicationScheduledAdministration {[]} {[]}
 ","Scheduled administrations of the medication","Scheduled administrations of the medication","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.treatments.treatmentLines.detailedRecords.schedule",0,*,"",""
-"BeModelMedicationView.treatments.treatmentLines.detailedRecords.dispenses","","","",0,*,"","","","http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeModelMedicationRecordDispense {[]} {[]}
+"BeModelMedicationView.treatments.treatmentLines.detailedRecords.dispenses","BeModelMedicationView.treatments.treatmentLines.detailedRecords.dispenses","","","",0,*,"","","","http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeModelMedicationRecordDispense {[]} {[]}
 ","Registered or reported dispenses","Registered or reported dispenses","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.treatments.treatmentLines.detailedRecords.dispenses",0,*,"",""
-"BeModelMedicationView.treatments.treatmentLines.detailedRecords.administrations","","","",0,*,"","","","http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeModelMedicationRecordAdministration {[]} {[]}
+"BeModelMedicationView.treatments.treatmentLines.detailedRecords.administrations","BeModelMedicationView.treatments.treatmentLines.detailedRecords.administrations","","","",0,*,"","","","http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeModelMedicationRecordAdministration {[]} {[]}
 ","Registered or reported single administrations","Registered or reported single administrations","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.treatments.treatmentLines.detailedRecords.administrations",0,*,"",""
-"BeModelMedicationView.treatments.treatmentLines.detailedRecords.usageReports","","","",0,*,"","","","http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeModelMedicationRecordUsage {[]} {[]}
+"BeModelMedicationView.treatments.treatmentLines.detailedRecords.usageReports","BeModelMedicationView.treatments.treatmentLines.detailedRecords.usageReports","","","",0,*,"","","","http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/BeModelMedicationRecordUsage {[]} {[]}
 ","Reported statements of medication usage","Reported statements of medication usage","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.treatments.treatmentLines.detailedRecords.usageReports",0,*,"",""
-"BeModelMedicationView.changeRecord","","","",0,*,"","","","Provenance {[]} {[]}
+"BeModelMedicationView.changeRecord","BeModelMedicationView.changeRecord","","","",0,*,"","","","Provenance {[]} {[]}
 ","Change records and provenance for the medication record components","Change records and provenance for the medication record components","","","","","","","","","",,,,,"",,,,"BeModelMedicationView.changeRecord",0,*,"",""

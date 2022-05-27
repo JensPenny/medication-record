@@ -1,11 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="8275a28f-a5e7-436d-a980-33ba5f9e4e51"/>
+  <id value="d1679f98-2e8e-4ccd-a901-fc41492cacfb"/>
   <meta>
-    <lastUpdated value="2022-04-25T09:14:05.463+00:00"/>
+    <lastUpdated value="2022-05-27T14:43:08.567+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7belgium.org/fhir/riziv-medicationrecord/ValueSet/be-vs-medication-summary-types"/>
+    <resource>
+      <ValueSet>
+        <id value="be-vs-medication-summary-types"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-be-cs-medication-summary-types.html">Medication Summary Types CodeSystem v0.1.0-test (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-be-cs-medication-summary-types.html">
+                <code>http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.6"> </a>  
+                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.466">kmehr-ms-5.6</a>
+                </td>
+                <td>Belgian Medication Schema v5.6 - 09/2018</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.5"> </a>  
+                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.465">kmehr-ms-5.5</a>
+                </td>
+                <td>Belgian Medication Schema v5.5 - 12-2017</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-Scheduled"> </a>  
+                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-Scheduled">Scheduled</a>
+                </td>
+                <td>Scheduled Takes View</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-Summary"> </a>  
+                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-Summary">Summary</a>
+                </td>
+                <td>Summary view for a physician</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7belgium.org/fhir/riziv-medicationrecord/ValueSet/be-vs-medication-summary-types"/>
+        <version value="0.1.0-test"/>
+        <name value="BeVSMedicationSummaryTypes"/>
+        <title value="Medication Summary Types Value Set"/>
+        <status value="active"/>
+        <date value="2022-05-27T14:43:08+00:00"/>
+        <publisher value="HL7 Belgium"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7belgium.org"/>
+          </telecom>
+        </contact>
+        <description value="Valueset -  Medication Summary types"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:da9c0f03-3cd0-4499-8154-74975c548d35"/>
+          <timestamp value="2022-05-27T14:43:36+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types|0.1.0-test"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types"/>
+            <code value="kmehr-ms-5.6"/>
+            <display value="Belgian Medication Schema v5.6 - 09/2018"/>
+          </contains>
+          <contains>
+            <system value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types"/>
+            <code value="kmehr-ms-5.5"/>
+            <display value="Belgian Medication Schema v5.5 - 12-2017"/>
+          </contains>
+          <contains>
+            <system value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types"/>
+            <code value="Scheduled"/>
+            <display value="Scheduled Takes View"/>
+          </contains>
+          <contains>
+            <system value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types"/>
+            <code value="Summary"/>
+            <display value="Summary view for a physician"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="http://hl7belgium.org/fhir/riziv-medicationrecord/ValueSet/medication-substitution-dispense-v1"/>
     <resource>
@@ -93,7 +206,7 @@
         <name value="SubstitutionReason"/>
         <title value="Medication Substitution Value Set"/>
         <status value="active"/>
-        <date value="2022-04-25T09:14:05+00:00"/>
+        <date value="2022-05-27T14:43:08+00:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -109,8 +222,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fee6c1fb-446b-4790-8478-c4de30f48037"/>
-          <timestamp value="2022-04-25T09:14:39+00:00"/>
+          <identifier value="urn:uuid:9729246b-d9aa-4eff-8ddd-6cf886139b47"/>
+          <timestamp value="2022-05-27T14:43:48+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -148,119 +261,6 @@
             <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
             <code value="UNABLE"/>
             <display value="unable to use"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7belgium.org/fhir/riziv-medicationrecord/ValueSet/be-vs-medication-summary-types"/>
-    <resource>
-      <ValueSet>
-        <id value="be-vs-medication-summary-types"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-be-cs-medication-summary-types.html">Medication Summary Types CodeSystem v0.1.0-test (CodeSystem)</a>
-            </p>
-            <p>All codes in this table are from the system 
-              <a href="CodeSystem-be-cs-medication-summary-types.html">
-                <code>http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types</code>
-              </a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.6"> </a>  
-                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.466">kmehr-ms-5.6</a>
-                </td>
-                <td>Belgian Medication Schema v5.6 - 09/2018</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.5"> </a>  
-                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.465">kmehr-ms-5.5</a>
-                </td>
-                <td>Belgian Medication Schema v5.5 - 12-2017</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-Scheduled"> </a>  
-                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-Scheduled">Scheduled</a>
-                </td>
-                <td>Scheduled Takes View</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7belgium.org-fhir-riziv-medicationrecord-CodeSystem-be-cs-medication-summary-types-Summary"> </a>  
-                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-Summary">Summary</a>
-                </td>
-                <td>Summary view for a physician</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7belgium.org/fhir/riziv-medicationrecord/ValueSet/be-vs-medication-summary-types"/>
-        <version value="0.1.0-test"/>
-        <name value="BeVSMedicationSummaryTypes"/>
-        <title value="Medication Summary Types Value Set"/>
-        <status value="active"/>
-        <date value="2022-04-25T09:14:05+00:00"/>
-        <publisher value="HL7 Belgium"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="http://hl7belgium.org"/>
-          </telecom>
-        </contact>
-        <description value="Valueset -  Medication Summary types"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BE"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:b70bdbfe-edac-4838-9c85-bd068434a965"/>
-          <timestamp value="2022-04-25T09:15:03+00:00"/>
-          <total value="4"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types|0.1.0-test"/>
-          </parameter>
-          <contains>
-            <system value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types"/>
-            <code value="kmehr-ms-5.6"/>
-            <display value="Belgian Medication Schema v5.6 - 09/2018"/>
-          </contains>
-          <contains>
-            <system value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types"/>
-            <code value="kmehr-ms-5.5"/>
-            <display value="Belgian Medication Schema v5.5 - 12-2017"/>
-          </contains>
-          <contains>
-            <system value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types"/>
-            <code value="Scheduled"/>
-            <display value="Scheduled Takes View"/>
-          </contains>
-          <contains>
-            <system value="http://hl7belgium.org/fhir/riziv-medicationrecord/CodeSystem/be-cs-medication-summary-types"/>
-            <code value="Summary"/>
-            <display value="Summary view for a physician"/>
           </contains>
         </expansion>
       </ValueSet>
