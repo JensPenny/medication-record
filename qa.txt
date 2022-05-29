@@ -2,9 +2,9 @@
 =========================================
 
 err = 134, warn = 258, info = 92
-IG Publisher Version: 1.1.120
-Generated Fri May 27 16:32:29 UTC 2022. FHIR version 4.0.1 for hl7.fhir.be.riziv-medicationrecord#0.1.0-test (canonical = http://hl7belgium.org/fhir/riziv-medicationrecord)
- Build Errors : 1054 / 79 / 1
+IG Publisher Version: 1.1.121
+Generated Sun May 29 08:03:31 UTC 2022. FHIR version 4.0.1 for hl7.fhir.be.riziv-medicationrecord#0.1.0-test (canonical = http://hl7belgium.org/fhir/riziv-medicationrecord)
+ Build Errors : 1055 / 79 / 1
  /github/workspace/fsh-generated/resources/Bundle-EB : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CarePlan-1-treatment : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CarePlan-13-treatment : 0 / 0 / 1
@@ -1298,6 +1298,7 @@ ERROR: /github/workspace/output/medicationrecord-pattern-2.html#/html/body/div/d
 ERROR: /github/workspace/output/medicationrecord-pattern-3.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/medicationrecord-pattern-4.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/medicationrecord-patterns.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/medicationrecord-privacy-access.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/medicationrecord-requirements.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/medicationrecord-scenario-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/medicationrecord-scenario-2.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
@@ -1344,7 +1345,7 @@ ERROR: Composition/1-scheduled-view: Composition.section[0]: Slicing cannot be e
 ERROR: Composition/1-scheduled-view: Composition.section[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: type.coding.code in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/sche-view-comp on element Composition.section:detailsRecord, looking in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/sche-view-comp (@char 1)
 ERROR: Composition/1-scheduled-view: Composition.section[2]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: type.coding.code in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/sche-view-comp on element Composition.section:detailsRecord, looking in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/sche-view-comp (@char 1)
 ERROR: Composition/1-scheduled-view: Composition.status: The value provided ('active') is not in the value set 'CompositionStatus' (http://hl7.org/fhir/ValueSet/composition-status|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/composition-status#active in http://hl7.org/fhir/composition-status)
-ERROR: Composition/1-scheduled-view: Composition.author[0]: Unable to resolve resource 'BeOrganization'
+ERROR: Composition/1-scheduled-view: Composition.author[0]: Unable to resolve resource with reference 'BeOrganization'
 == fsh-generated/resources/Composition-1-summary-view.json ==
 ERROR: Composition/1-summary-view: Composition.section[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: type.coding.code in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/med-view-comp on element Composition.section:MedRecordTreatment, looking in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/med-view-comp (@char 1)
 ERROR: Composition/1-summary-view: Composition.section[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: type.coding.code in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/med-view-comp on element Composition.section:MedRecordTreatment, looking in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/med-view-comp (@char 1)
@@ -1356,7 +1357,7 @@ ERROR: Composition/1-summary-view: Composition.section[0]: Slicing cannot be eva
 ERROR: Composition/1-summary-view: Composition.section[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: type.coding.code in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/med-view-comp on element Composition.section:detailsRecord, looking in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/med-view-comp (@char 1)
 ERROR: Composition/1-summary-view: Composition.section[2]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: type.coding.code in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/med-view-comp on element Composition.section:detailsRecord, looking in profile http://hl7belgium.org/fhir/riziv-medicationrecord/StructureDefinition/med-view-comp (@char 1)
 ERROR: Composition/1-summary-view: Composition.status: The value provided ('active') is not in the value set 'CompositionStatus' (http://hl7.org/fhir/ValueSet/composition-status|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/composition-status#active in http://hl7.org/fhir/composition-status)
-ERROR: Composition/1-summary-view: Composition.author[0]: Unable to resolve resource 'BeOrganization'
+ERROR: Composition/1-summary-view: Composition.author[0]: Unable to resolve resource with reference 'BeOrganization'
 == fsh-generated/resources/Condition-arthritis-condition.json ==
 INFORMATION: Condition/arthritis-condition: Condition.code.coding[0]: Code System URI 'http://snomed.ct' is unknown so the code cannot be validated
 == fsh-generated/resources/Condition-diarrhea-condition.json ==
@@ -1487,7 +1488,7 @@ INFORMATION: MedicationDispense/8-dispense: MedicationDispense.quantity: Code Sy
 == fsh-generated/resources/MedicationDispense-Dafalgan500mgDispense.json ==
 ERROR: MedicationDispense/Dafalgan500mgDispense: MedicationDispense.status: The value provided ('active') is not in the value set 'Medication dispense  status  codes' (http://hl7.org/fhir/ValueSet/medicationdispense-status|4.0.1), and a code is required from this value set) (error message = Unknown Code http://terminology.hl7.org/CodeSystem/medicationdispense-status#active in http://terminology.hl7.org/CodeSystem/medicationdispense-status)
 WARNING: MedicationDispense/Dafalgan500mgDispense: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationDispense/Dafalgan500mgDispense: MedicationDispense.subject: Unable to resolve resource 'Patient1'
+ERROR: MedicationDispense/Dafalgan500mgDispense: MedicationDispense.subject: Unable to resolve resource with reference 'Patient1'
 == fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med.json ==
 WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
@@ -1514,11 +1515,11 @@ INFORMATION: MedicationRequest/1-scheduledadministration1: MedicationRequest.med
 INFORMATION: MedicationRequest/1-scheduledadministration2: MedicationRequest.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
 == fsh-generated/resources/MedicationRequest-15-prescription.json ==
 ERROR: MedicationRequest/15-prescription: MedicationRequest: The modifier extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (allowed = e:Condition; this element is [[MedicationRequest])
-ERROR: MedicationRequest/15-prescription: MedicationRequest.extension[1].value.ofType(Reference): Unable to resolve resource 'example-15-of-medication-treatmentLine'
+ERROR: MedicationRequest/15-prescription: MedicationRequest.extension[1].value.ofType(Reference): Unable to resolve resource with reference 'example-15-of-medication-treatmentLine'
 INFORMATION: MedicationRequest/15-prescription: MedicationRequest.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
 == fsh-generated/resources/MedicationRequest-15-prescription-2.json ==
 ERROR: MedicationRequest/15-prescription-2: MedicationRequest: The modifier extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (allowed = e:Condition; this element is [[MedicationRequest])
-ERROR: MedicationRequest/15-prescription-2: MedicationRequest.extension[1].value.ofType(Reference): Unable to resolve resource 'example-15-of-medication-treatmentLine2'
+ERROR: MedicationRequest/15-prescription-2: MedicationRequest.extension[1].value.ofType(Reference): Unable to resolve resource with reference 'example-15-of-medication-treatmentLine2'
 INFORMATION: MedicationRequest/15-prescription-2: MedicationRequest.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
 == fsh-generated/resources/MedicationRequest-15-scheduleAdministration.json ==
 ERROR: MedicationRequest/15-scheduleAdministration: MedicationRequest: The modifier extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (allowed = e:Condition; this element is [[MedicationRequest])
@@ -1603,25 +1604,25 @@ ERROR: MedicationStatement/8-usage: MedicationStatement: The modifier extension 
 INFORMATION: MedicationStatement/8-usage: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
 == fsh-generated/resources/MedicationStatement-Asaflow500mg1xACM.json ==
 WARNING: MedicationStatement/Asaflow500mg1xACM: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Asaflow500mg1xACM: MedicationStatement.subject: Unable to resolve resource 'Patient1'
+ERROR: MedicationStatement/Asaflow500mg1xACM: MedicationStatement.subject: Unable to resolve resource with reference 'Patient1'
 == fsh-generated/resources/MedicationStatement-Asaflow500mg1xACMd.json ==
 WARNING: MedicationStatement/Asaflow500mg1xACMd: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Asaflow500mg1xACMd: MedicationStatement.subject: Unable to resolve resource 'Patient1'
+ERROR: MedicationStatement/Asaflow500mg1xACMd: MedicationStatement.subject: Unable to resolve resource with reference 'Patient1'
 == fsh-generated/resources/MedicationStatement-Co-Bisoprolol25-625mg1xACM.json ==
 WARNING: MedicationStatement/Co-Bisoprolol25-625mg1xACM: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Co-Bisoprolol25-625mg1xACM: MedicationStatement.subject: Unable to resolve resource 'Patient1'
+ERROR: MedicationStatement/Co-Bisoprolol25-625mg1xACM: MedicationStatement.subject: Unable to resolve resource with reference 'Patient1'
 == fsh-generated/resources/MedicationStatement-Co-Bisoprolol25-625mg1xACMd.json ==
 WARNING: MedicationStatement/Co-Bisoprolol25-625mg1xACMd: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Co-Bisoprolol25-625mg1xACMd: MedicationStatement.subject: Unable to resolve resource 'Patient1'
+ERROR: MedicationStatement/Co-Bisoprolol25-625mg1xACMd: MedicationStatement.subject: Unable to resolve resource with reference 'Patient1'
 == fsh-generated/resources/MedicationStatement-Dafalgan500mg1xmeal.json ==
 WARNING: MedicationStatement/Dafalgan500mg1xmeal: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Dafalgan500mg1xmeal: MedicationStatement.subject: Unable to resolve resource 'Patient1'
+ERROR: MedicationStatement/Dafalgan500mg1xmeal: MedicationStatement.subject: Unable to resolve resource with reference 'Patient1'
 == fsh-generated/resources/MedicationStatement-Dafalgan500mgmix.json ==
 WARNING: MedicationStatement/Dafalgan500mgmix: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Dafalgan500mgmix: MedicationStatement.subject: Unable to resolve resource 'Patient1'
+ERROR: MedicationStatement/Dafalgan500mgmix: MedicationStatement.subject: Unable to resolve resource with reference 'Patient1'
 == fsh-generated/resources/MedicationStatement-Paracetamol500mg1xCV.json ==
 WARNING: MedicationStatement/Paracetamol500mg1xCV: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationStatement/Paracetamol500mg1xCV: MedicationStatement.subject: Unable to resolve resource 'Patient1'
+ERROR: MedicationStatement/Paracetamol500mg1xCV: MedicationStatement.subject: Unable to resolve resource with reference 'Patient1'
 == fsh-generated/resources/NamingSystem-be-ns-cnk-codes.json ==
 == fsh-generated/resources/NamingSystem-be-ns-prescription-ids.json ==
 == fsh-generated/resources/NamingSystem-be-ns-product-package-type.json ==
@@ -1648,7 +1649,7 @@ WARNING: Provenance/3-3-provenance: Provenance.agent[0].role[0].coding[0]: A cod
 == fsh-generated/resources/Provenance-3-4-provenance.json ==
 WARNING: Provenance/3-4-provenance: Provenance.agent[0].role[0].coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/Provenance-4-1-provenance.json ==
-ERROR: Provenance/4-1-provenance: Provenance.target[0]: Unable to resolve resource '4-1-prescription'
+ERROR: Provenance/4-1-provenance: Provenance.target[0]: Unable to resolve resource with reference '4-1-prescription'
 WARNING: Provenance/4-1-provenance: Provenance.agent[0].role[0].coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/Provenance-4-2-provenance.json ==
 WARNING: Provenance/4-2-provenance: Provenance.agent[0].role[0].coding[0]: A code with no system has no defined meaning. A system should be provided
